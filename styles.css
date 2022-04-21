@@ -1,0 +1,69 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+
+#landing {
+background-image: url(./images/laptop\ with\ coffee.jpg);
+width: 100%;
+height: 100vh;
+background-position:center;
+background-size: cover;
+padding: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+flex-direction: column;
+
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    font-family: serif;
+
+}
+.container{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    color: #ce79d1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: rgb(116, 64, 131);
+    color: black;
+}
+
+.navbar a.active {
+    background-color: #222926;
+    color: rgb(119, 29, 109);
+}
+
+#About {
+    display: flex;
+    padding: 5% 10%;
+    width: 50%;
+    gap: 30px;
+
+}
