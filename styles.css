@@ -6,6 +6,7 @@
     padding: 0%;
     scroll-behavior: smooth;
     margin-top: 20px;
+    
 }
 
 
@@ -30,17 +31,10 @@ flex-direction: column;
     font-family: serif;
 
 }
-.container { 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-align: left;
-
-}
 
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgba(7, 6, 6, 0.484) text lightcyan;
 
 }
 
@@ -61,19 +55,20 @@ flex-direction: column;
     padding: 5% 10%;
     gap: 30px;
     height: 700px;
-    background-color: orangered;
+    background-color: rgba(7, 6, 6, 0.484) text lightcyan;
     
 }
 
 #About-text {
 
     border-bottom: 3px solid coral;
+    background-color: rgba(7, 6, 6, 0.484) text lightcyan;
     
 
 }
 
 #Skills {
-    
+    background-color: rgba(7, 6, 6, 0.484) text lightcyan;
     
 
 }
@@ -81,11 +76,11 @@ flex-direction: column;
 
 
 .timeline {
-    background-color: #ce79d1;
+    background-color: rgba(7, 6, 6, 0.484) text lightcyan;
     border-left: 3px solid #727cf5;
     border-bottom-right-radius: 4px;
     border-top-right-radius: 4px;
-    background: rgba(224, 39, 163, 0.09);
+    background-color: rgba(7, 6, 6, 0.484);
     margin: 0 auto;
     letter-spacing: 0.2px;
     position: relative;
@@ -94,8 +89,10 @@ flex-direction: column;
     padding: 50px;
     list-style: none;
     text-align: left;
-    max-width: 40%;
+    max-width: 100%;
 }
+
+
 
 @media (max-width: 767px) {
     .timeline {
@@ -194,4 +191,17 @@ flex-direction: column;
 .rtl .timeline .event::after {
     left: 0;
     right: -55.8px;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.project-container img {
+    min-width: 200px;
+    flex-grow: 1;
+    object-fit: cover;
+    max-height: 400px;
 }
